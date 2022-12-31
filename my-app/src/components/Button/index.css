@@ -1,0 +1,16 @@
+button{
+    width: 100%;
+    padding: 8px;
+
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right,rgb(67, 0, 129), rgb(22, 32, 167), rgb(24, 156, 156), rgb(27, 216, 27));
+    outline: transparent;
+}
+
+button:focus {
+    border: 2px solid rgb(24, 156, 156);
+    outline-offset: 3px;
+}

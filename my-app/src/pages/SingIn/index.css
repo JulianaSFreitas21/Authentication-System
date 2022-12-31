@@ -1,0 +1,59 @@
+.container{
+    width: 98%;
+    height: 100vh;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 6px;
+    width: 350px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+
+    background-color: rgb(41, 41, 41);
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px 0;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+}
+
+p,#link{
+    font-size: 16px;
+    color: #fff;
+}
+
+#link{
+    color: rgb(24, 156, 156);
+    text-decoration: none;
+    font-weight: 500;
+    outline: transparent;
+}
+
+#link:focus{
+    border: none;
+    border-bottom: 1px solid rgb(24, 156, 156);
+}
+
+span{
+    font-size: 14px;
+    color: #e91010
+}

@@ -1,0 +1,17 @@
+input{
+    width: 100%;
+    padding: 8px;
+
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 2px solid rgb(22, 32, 167);
+
+    background-color: transparent;
+    color: white;
+    outline: transparent;
+}
+
+input:focus {
+    border: 2px solid rgb(24, 156, 156);
+}
